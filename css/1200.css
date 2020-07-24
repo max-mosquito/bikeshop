@@ -1,0 +1,66 @@
+@media (max-width: 1200px) {
+	.top_menu {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.logo {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		order: 1;
+		flex: 0 1 auto;
+		justify-content: flex-start;
+	}
+	.nav {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		order: 2;
+		justify-content: center;
+		flex: 0 1 100%;
+		padding-top: 20px;
+	}
+	.basket {display: -webkit-flex;
+		justify-content: flex-end;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		order: 1;
+		flex: 0 1 auto;
+	}
+	.bikes_top_left-body p {
+		padding-bottom: 20px;
+	}
+	.bikes_top_left-body p:last-child {
+		padding-bottom: 50px;
+	}
+	.bikes_bottom_right-body {
+		transform: translate(0, -65%);
+	}
+	.bikes_bottom_right-body:before {
+		width: 125px;
+	}
+	.card {
+		margin-bottom: 15px;
+	}
+	.acc_gal {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.subs {
+    max-width: 900px;
+    padding: 60px 40px;
+	}
+}

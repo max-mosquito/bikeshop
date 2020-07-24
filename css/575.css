@@ -1,0 +1,142 @@
+@media (max-width: 575px) {
+	.header_title h1 {
+		line-height: 40px;
+	}
+	h2 {
+		line-height: 40px;
+	}
+	.top_menu {
+		position: relative;
+	}
+	.burger {
+		display: block;
+		width: 40px;
+		height: 40px;
+		order: 2;
+		cursor: pointer;
+		position: absolute;
+		right: 0;
+		top: 100px;
+	}
+	.burger:before {
+		content: "";
+		width: 40px;
+		height: 4px;
+		background-color: #fff;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.burger span {
+		content: "";
+		width: 40px;
+		height: 4px;
+		background-color: #fff;
+		position: absolute;
+		left: 0;
+		top: 50%;
+	}
+	.burger:after {
+		content: "";
+		width: 40px;
+		height: 4px;
+		background-color: #fff;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+	.burger.active:before {
+		top: 45%;
+		transform: rotate(45deg);
+		
+	}
+	.burger.active span {
+		display: none;
+	}
+	.burger.active:after {
+		bottom: 45%;
+		transform: rotate(-45deg);
+
+	}
+	.nav  {
+		margin-top: -400px;
+		transition: .5s
+	}
+	.nav.active  {
+		margin-top: 00px;
+		.5s
+	}
+	.nav ul {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.nav ul li {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.bikes_wrap {
+   		 padding-top: 20px;
+	}
+	.bikes_top {
+		padding: 0;
+	}
+	.bikes_top_left {
+		padding: 0 0px 20px;
+	}
+	.bikes_bottom_right {
+		padding: 0;
+	}
+	.bikes_bottom_right-body {
+    	max-width: 100%;
+    	padding: 0;
+	}
+	.comp_wrap h2{
+ 		padding-bottom: 10px;
+	}
+	.comp_wrap p {
+		padding: 0 0px 5px;
+	}
+	.acc_wrap {
+    	padding: 20px 20px 30px;
+	}
+	.acc_title h2{
+		padding-bottom: 10px;
+	}
+	.acc_title p {
+		padding: 0 0px 0px;
+	}
+	.card {
+    margin: 35px 0;
+	}
+	.card_pic {
+		padding: 0;
+	}
+	.card p {
+		padding-bottom: 30px;
+	}
+	.footer .opas_f {
+   		 padding-top: 80px;
+	}
+	.subs {
+		background-color: transparent;
+		margin-bottom: 70px;
+	}
+	.subs h2,
+	.subs p {
+		color: #fff
+	}
+	#email {
+	max-width: 285px;
+}
+	.copy {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+}

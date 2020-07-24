@@ -1,0 +1,30 @@
+@media (max-width: 767px) {
+	.header_title h1 {
+		line-height: 50px;
+	}
+	.bikes_top_left-body h2,
+	.comp_wrap h2,
+	.acc_title h2,
+	.subs h2 {
+		line-height: 40px;
+	}
+	.acc_title p {
+		padding: 0 30px 70px;
+	}
+	.acc_wrap {
+		padding: 65px 20px 80px;
+	}
+	.subs {
+    max-width: 640px;
+    padding: 20px 20px;
+	}
+	.subs h2 {
+		padding-bottom: 20px;
+	}
+	.subs p {
+		padding-bottom: 40px;
+	}
+	#email {
+		margin-bottom: 20px;
+	}
+}
