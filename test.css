@@ -1,0 +1,44 @@
+*, *:before, *:after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+
+.wrap {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction:row-reverse;
+}
+.pic {
+	flex: 0 0 50%;
+	transform: translate(100%, 0px);
+	order: 2;
+	background-color: #ccc;
+}
+.pic img {
+	max-width: 100%;
+}
+.container {
+	flex: 0 0 100%;
+	order: 1;
+}
+.text {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	background-color: pink;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+.text_body {
+	width: 50%;
+}
